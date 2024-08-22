@@ -3,7 +3,8 @@
 module Main (main) where
 
 import           Criterion.Main               (Benchmark)
-import           Data.Int                     (Int32)
+-- import           Data.Int                     (Int32)
+import           Data.Int()
 import           Data.ProtoLens.BenchmarkUtil (benchmarkMain, protoBenchmark)
 import           Data.ProtoLens.Message       (defMessage)
 import           Data.Text                    (Text)
